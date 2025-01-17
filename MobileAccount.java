@@ -2,7 +2,7 @@ public class MobileAccount {
 
     public static void main(String[] args) {
         java.util.Scanner scanner = new java.util.Scanner(System.in);
-        BankClient client = new BankClient("Jan", "Kowalski", "Warszawa, ul. Prosta 1", "1990-01-01", "90010112345", "jan123", "Haslo123!", "jan.kowalski@example.com");
+        BankClient client = new BankClient("Kacper", "Jakis", "Warszawa, ul. Taka 2", "1990-01-01", "12345678901", "kacp123", "Haslo123!", "kacper.jakis@example.com");
         boolean running = true;
 
         while (running) {
